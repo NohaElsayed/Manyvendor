@@ -1,0 +1,29 @@
+{
+    "name" : "sslcommerz",
+
+    "unique_identifier" : "sslcommerz_payment",
+
+    "version" : "1.0",
+
+    "minimum_item_version" : "1.0",
+
+    "addon_banner" : "",
+
+    "directory" :
+    [
+        {
+          "name" : ["resources/views/frontend", "resources/views/frontend/checkout","resources/views/frontend/guest_checkout"]
+        }
+    ],
+
+    "sql_file"  : "",
+
+    "files"     :
+    [
+        {
+            "root_directory"    : "addons/ssl-commerz/app/Http/Controllers/SslCommerzPaymentController.php",
+            "update_directory"  : "app/Http/Controllers/SslCommerzPaymentController.php"
+        },
+       
+    ]
+}
